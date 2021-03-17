@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="./css/bootstrap.css">
+   <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>sport news </title>
+
+
+    
+<style>
+.logo{margin-left: 910px;
+margin-top: 5px;}
+ body{background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./imag/p.jpg);height:100vh;background-size:cover;background-position:center;}
+ 
+ 
+ #carouselExampleControls{width: 700px; height: 200px;
+margin-left: 300px;
+margin-top: 150px;
+
+}
+ .r,.r1,.r2{width: 199px;height: 30px;}
+.lo{background-color: rgba(0,0,0,0.5);}
+
+</style>
+
+
+</head>
+<body>
+  <nav>
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true" style="color: red;background-color:black;">Home</button>
+        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false" style="color: red;">News</button>
+        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false" style="color: red;">About</button>
+       
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" style="color: red ;">Live</a>
+            <ul class="dropdown-menu" >
+              <li><a class="dropdown-item" href="#" >Chanal 1 </a></li>
+              <li><a class="dropdown-item" href="#">Chanal 2 </a></li>
+              <li><a class="dropdown-item" href="#">Chanal 3 </a></li>
+              
+            </ul>
+          </li>
+       
+
+     <nav class="logo" style="color: red;">
+         Sport news
+         <img src="./imag/j.png" alt=".." width="40px" height="40px">
+     </nav>   
+    </div>
+
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <h1 style="color:rgb(83, 83, 223);"></h1>
+      <div class="carousel-inner"  >
+       
+        <div class="carousel-item active" >
+          <img src="./imag/p1.jpg " class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./imag/p2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./imag/p3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button></nav>
+
+
+    <footer style="background-color: rgb(235, 172, 172); margin-top: 300px;height: 100px; "><br>
+      <br>
+     
+        
+        <div style="margin-left: 350px;"> <img src="./imag/R.png" class="r" alt="...">
+         <img src="./imag/r3.png"  class="r1"alt="">
+         <img src="./imag/b1.png"  class="r2"alt="">
+        </div>
+    </footer>
+      
+     
+<script src="./js/jquery.min.js"></script>
+<script  src="./js/jquery-3.4.1.slim.min.js"></script>
+<script  src="./js/popper.min.js"></script>
+    <script  src="./js/bootstrap.js"></script> 
+   <script  src="./js/bootstrap.min.js"></script> 
+    
+    <script>
+      var dropdownElementList = [].slice.call(document.querySelectorAll('.dropdown-toggle'))
+var dropdownList = dropdownElementList.map(function (dropdownToggleEl) {
+  return new bootstrap.Dropdown(dropdownToggleEl)
+})
+
+    </Script>
+
+</body>
+</html>
